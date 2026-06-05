@@ -1,14 +1,8 @@
 const version = require('../../package.json').version;
 
 const banner = `
-    ___     ____     ____           ____    ______
-   /   |   / __ \\   / __ )         / __ \\  / ____/
-  / /| |  / / / /  / __  | ______ / / / / / /     
- / ___ | / /_/ /  / /_/ / /_____// /_/ / / /___   
-/_/  |_|/_____/  /_____/         \\___\\_\\ \\____/   
-
-
-        Welcome to ADB Quick Connect
+  
+      Welcome to SB Quick Connect
      Wi-Fi - QR Scanner - Pairing Code
 
 `;
