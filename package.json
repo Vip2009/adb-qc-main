@@ -1,0 +1,66 @@
+{
+  "name": "adb-qc",
+  "version": "1.0.4",
+  "description": "Quickly set up a wireless ADB connection for Android devices. Supports connection via pairing code or QR code, enabling remote debugging over Wi-Fi.",
+  "main": "src/index.js",
+  "preferGlobal": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/index.js"
+  },
+  "author": {
+    "email": "angel-krak@hotmail.com",
+    "name": "Angel Ramirez",
+    "url": "https://github.com/AngelKrak"
+  },
+  "license": "MIT",
+  "bin": {
+    "adb-qc": "cli.js"
+  },
+  "dependencies": {
+    "enquirer": "^2.4.1",
+    "libnmap": "^0.4.19",
+    "nanoid": "^3.3.1",
+    "node-dns-sd": "^1.0.1",
+    "qrcode-terminal": "^0.12.0"
+  },
+  "engines": {
+    "node": ">=14"
+  },
+  "bugs": {
+    "url": "https://github.com/AngelKrak/adb-qc/issues"
+  },
+  "homepage": "https://github.com/AngelKrak/adb-qc#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AngelKrak/adb-qc.git"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  },
+  "keywords": [
+    "adb",
+    "android",
+    "connect",
+    "devices",
+    "wireless",
+    "wifi",
+    "adb-over-wifi",
+    "usb-debugging",
+    "mDNS",
+    "android-devices",
+    "pairing",
+    "qr-code",
+    "pairing-code",
+    "tcp",
+    "remote-debugging",
+    "debugging",
+    "device-discovery",
+    "adb-connection",
+    "adb-pairing",
+    "adb-wlan",
+    "wireless debugging",
+    "adb wireless",
+    "adb-wireless"
+  ]
+}
